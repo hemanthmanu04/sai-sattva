@@ -18,21 +18,21 @@ const Contact = () => {
             className="h-[300px] bg-cover bg-center object-cover duration-500"
             style={{ backgroundImage: `url("images/bg.jpg")` }}
           ></div>
-          <h1 className="absolute text-[#44832a] top-[45%] left-[30%] lg:left-[38%] font-semibold text-6xl text-center">
+          <h1 className="absolute text-[#44832a] top-[45%] left-[30%] lg:left-[38%] font-semibold text-4xl md:text-6xl text-center">
             Contact Us
           </h1>
         </div>
         <div className="relative">
           <div className="h-[1px] bg-white"></div>
-          <div className="absolute shadow-lg top-1/2 w-2/5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-slate-100 rounded-full p-2 text-center">
-            <span className="text-[#44832a] lg:tracking-wide tracking-wide font-semibold">
+          <div className="absolute shadow-lg top-1/2 w-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm md:text-base bg-slate-100 rounded-full p-2 text-center">
+            <span className="text-[#44832a]  font-semibold">
               Home • Contact Us
             </span>
           </div>
         </div>
 
         <div className="bg-white lg:flex mt-14">
-          <div className="lg:w-[40%] bg-[#F5F7F8] shadow-xl mx-20 lg:mt-16 rounded-xl">
+          <div className="lg:w-[40%] bg-[#F5F7F8] shadow-xl mx-4 md:mx-20 lg:mt-16 rounded-xl">
             <div className="h-2 bg-green-700 rounded-t-lg"></div>
             <div className="m-10 ml-10 lg:my-12">
               <div className="flex">

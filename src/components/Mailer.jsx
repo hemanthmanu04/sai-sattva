@@ -28,7 +28,7 @@ const Mailer = () => {
   }
 
   return (
-    <div className="m-12 p-6 lg:w-2/3 rounded-lg">
+    <div className="mx-4 my-12 md:m-12 p-6 lg:w-2/3 rounded-lg">
       <form onSubmit={sendEmail}>
         <div className="lg:flex lg:justify-start">
           <div className="mb-4 lg:w-1/2 lg:mr-2">

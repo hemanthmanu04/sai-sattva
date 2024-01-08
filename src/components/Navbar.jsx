@@ -15,20 +15,20 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="bg-[#4b9c28] lg:flex lg:h-12 lg:w-full lg:py-5 text-white
-       lg:items-center lg:justify-between"
+        className="bg-[#4b9c28] md:flex md:h-12 md:w-full md:py-4 text-white
+       md:items-center md:justify-between"
       >
-        <div className="flex items-center py-2 justify-center lg:ml-8">
+        <div className="flex flex-row items-center py-2 justify-center md:ml-8">
           <a className="flex" href="tel:+918197696766">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="white"
               viewBox="0 0 256 256"
-              className="h-6 w-6"
+              className="md:h-6 md:w-6 h-4 w-4"
             >
               <path d="M231.88,175.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.26,56.26,0,0,1,80.92,24.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Z"></path>
             </svg>
-            <span className="ml-2 font-semibold text-white ">
+            <span className="md:ml-2 ml-1 text-white md:text-base text-sm ">
               +91 8197696766
             </span>
           </a>
@@ -41,19 +41,19 @@ const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="white"
-              className="w-6 h-6"
+              className="md:h-6 md:w-6 h-4 w-4"
             >
               <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
               <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
             </svg>
 
-            <span className="ml-2 font-semibold text-white">
+            <span className="ml-2 text-white md:text-base text-sm">
               saisattvaconsultants@gmail.com
             </span>
           </a>
         </div>
 
-        <div className="flex gap-4 mr-8 items-center py-2 justify-center">
+        <div className="flex gap-4 mr-8 items-center md:py-2 py-1 justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -83,9 +83,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="sticky z-50 top-0 opacity-[95%] flex justify-between px-5 h-[80px] w-full items-center bg-white shadow-xl">
+      <div className="sticky z-50 top-0 opacity-[95%] flex justify-between md:px-5 h-[80px] w-full items-center bg-white shadow-xl">
         <div className="flex items-center py-5 text-green-900">
-          <img className="h-20 w-26" src="/images/logoo.png" />
+          <img className="md:h-20 md:w-26 h-12 w-12" src="/images/logoo.png" />
           <div className="text-l tracking-lighter ml-5">
             <NavLink
               to="/"
@@ -93,17 +93,17 @@ const Navbar = () => {
               className="py-2 px-4 font-medium  transition duration-300 ease-in-out"
               activeClassName="text-green-500"
             >
-              <span className="block text-center font-semibold">
+              <span className="block text-center md:text-base text-sm font-semibold">
                 Sai Sattva
               </span>
-              <span className="block font-semibold">
+              <span className="block font-semibold md:text-base text-sm">
                 Engineering & Consultants
               </span>
             </NavLink>
           </div>
         </div>
 
-        <div className="hidden lg:flex items-center border-r">
+        <div className="hidden md:flex items-center border-r">
           <NavLink
             to="/"
             exact
@@ -189,7 +189,7 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        <div className="relative lg:hidden">
+        <div className="relative md:hidden">
           <ul
             className={`fixed w-64 inset-y-0 bg-[#5a962c] right-0 flex flex-col gap-4 font-medium text-green-900 transition-transform transform ${
               menuOpen ? "translate-x-0" : "translate-x-full"
