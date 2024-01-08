@@ -3,15 +3,15 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#4b9c28] lg:mt-0 py-14 h-[80%] lg:flex justify-around text-md text-white lg:px-10 px-10">
+      <div className="bg-[#48882c] lg:mt-0 py-14 h-[80%] lg:flex justify-around text-md text-white lg:px-10 px-10">
         <div className="">
           <div className="flex">
             <img
               className="h-24 w-22 bg-slate-50 rounded-lg "
               src="/images/logoo.png"
             />
-            <div className="text-l tracking-lighter ml-5 text-xl py-[12px] block">
-              <span className="block text-center font-semibold">
+            <div className=" tracking-lighter  ml-5 text-xl py-[12px] block">
+              <span className="block lg:text-center text-left font-semibold">
                 Sai Sattva
               </span>
               <span className="block font-semibold">
@@ -136,7 +136,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#4b9c28] h-[80%] justify-around text-md text-white py-5">
+      <div className="bg-[#48882c] h-[80%] justify-around text-md text-white py-5">
         <hr className="border-t border-white my-4 w-[93%] mx-auto" />
         <p className="text-center">
           Copyright &copy; 2023-All rights reserved Sai Sattva Engineering and

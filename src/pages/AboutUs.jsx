@@ -33,31 +33,28 @@ const AboutUs = () => {
               className="h-[300px] bg-cover bg-center object-cover duration-500"
               style={{ backgroundImage: `url("images/bg.jpg")` }}
             ></div>
-            <h1 className="absolute text-[#44832a] top-[45%] left-[30%] lg:top-[40%] lg:left-[40%] font-semibold text-6xl text-center">
+            <h1 className="absolute text-[#44832a] top-[45%] left-[30%] lg:top-[40%] lg:left-[40%] font-semibold text-4xl md:text-6xl  text-center">
               About Us
             </h1>
           </div>
           <div className="relative">
             <div className="h-[1px] bg-white"></div>
-            <div className="absolute shadow-lg top-1/2 w-2/5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-slate-100 rounded-full p-2 text-center">
-              <span className="text-[#44832a] lg:tracking-wide font-semibold">
+            <div className="absolute shadow-lg top-1/2md:w-2/5 w-[200px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-slate-100 rounded-full p-2 text-center">
+              <span className="text-[#44832a] lg:tracking-wide font-medium">
                 Home • About Us
               </span>
             </div>
           </div>
-          <div className="m-12 lg:mb-4">
+          <div className="lg:m-12 my-14 mx-4 lg:mb-4">
             <div className="lg:flex">
-              <div className="lg:pt-8">
-                <span className=" text-md lg:text-lg mx-1 text-gray-700 ">
+              <div className="lg:pt-20">
+                <span className=" text-md lg:text-lg mx-1 text-slate-700 font-medium tracking-wide ">
                   About us
                 </span>
-                <h1 className="text-[#58a337] font-semibold mt-2 text-5xl tracking-wide">
-                  Sai Sattva Engineering
+                <h1 className="text-[#58a337] font-semibold  text-3xl tracking-wide">
+                  Sai Sattva Engineering and Consultants
                 </h1>
-                <h1 className="text-[#58a337] font-semibold text-5xl tracking-wide">
-                  and Consultants
-                </h1>
-                <p className="my-4 text-md lg:text-lg lg:w-[75%] tracking-wide">
+                <p className="mb-4 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
                   Established in 2023, Sai Sattva is committed to delivering
                   cutting-edge technologies and unparalleled services to its
                   customers. The company is devoted to fulfilling its
@@ -67,11 +64,11 @@ const AboutUs = () => {
               </div>
               <img
                 src="images/tu.jpg"
-                className="my-6 object-contain h-[300px] w-full"
+                className=" object-cover h-[250px] mt-12 lg:mx-12 lg:my-12 w-full"
               />
             </div>
           </div>
-          <p className="mx-12 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
+          <p className="md:mx-12 mx-4 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
             Sai Sattva stands as a trailblazer in professional environmental
             services, offering comprehensive solutions in the design,
             manufacturing, operation, and maintenance of
@@ -85,7 +82,7 @@ const AboutUs = () => {
             emphasizing environmental consciousness in product innovations,
             purification, and recycling technologies.
           </p>
-          <p className="mx-12 my-10 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
+          <p className="md:mx-12 mx-4 my-10 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
             The enduring and prosperous relationships Sai Sattva builds with its
             clients are a testament to the quality of its products and the
             ultimate satisfaction of end customers. The company remains
@@ -95,28 +92,28 @@ const AboutUs = () => {
           </p>
           <div className="bg-slate-100 flex flex-col ">
             {/* Vision Box */}
-            <div className="m-6 p-10 bg-[#EAECCC] rounded-lg lg:flex">
+            <div className="m-6 lg:p-10 p-6 bg-[#EAECCC] rounded-lg lg:flex">
               <div className="lg:w-2/4">
                 <h2 className="text-2xl text-center font-semibold mb-4">
                   Vision
                 </h2>
-                <p className="text-center text-lg font-medium text-slate-700 ">
+                <p className="text-left text-lg font-medium text-slate-700 ">
                   Leadership in Environmental Science and Engineering for
                   Sustainable Development
                 </p>
               </div>
               <img
                 src="images/compass.jpg"
-                className="lg:h-[350px] h-[300px] w-auto rounded-md mt-4 lg:mx-4"
+                className="md:h-[350px] h-[220px] w-auto rounded-md mt-4 lg:mx-4"
               />
             </div>
 
-            <div className="m-6 p-10 bg-[#EAECCC] rounded-lg lg:flex">
+            <div className="m-6 lg:p-10 p-6 bg-[#EAECCC] rounded-lg lg:flex">
               <div className="lg:w-2/4">
                 <h2 className="text-2xl text-center font-semibold mb-4">
                   Mission
                 </h2>
-                <p className="text-lg text-center font-medium text-slate-700">
+                <p className="text-lg text-left font-medium text-slate-700">
                   Continue to strive for providing effective innovative and
                   solutions for sustainable development and to help Government,
                   industry and the society,
@@ -124,7 +121,7 @@ const AboutUs = () => {
               </div>
               <img
                 src="images/mission.jpg"
-                className="lg:h-[350px] h-[300px] w-auto rounded-md mt-4 lg:mx-4"
+                className="md:h-[350px] h-[220px] w-auto rounded-md mt-4 lg:mx-4"
               />
             </div>
           </div>
@@ -133,7 +130,7 @@ const AboutUs = () => {
               MD&apos;s Desk
             </div>
 
-            <div className="m-12">
+            <div className="mt-12 mx-4">
               <div className="lg:flex">
                 <div className="flex justify-center mb-8">
                   <div className="bg-[#e0e2c5] rounded-lg h-[420px] w-[350px]">
@@ -152,7 +149,7 @@ const AboutUs = () => {
                   </div>
                 </div>
 
-                <div className="lg:m-8  ">
+                <div className="lg:mx-8 lg:mt-16">
                   <p className="my-4 text-slate-700 tracking-wide font-medium">
                     Suresh V is a seasoned professional in the field of
                     Environmental Science with over 25 years of dedicated

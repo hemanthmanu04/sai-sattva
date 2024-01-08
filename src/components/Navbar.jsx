@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="bg-[#4b9c28] md:flex md:h-12 md:w-full md:py-4 text-white
+        className="bg-[#48882c] md:flex md:h-12 md:w-full md:py-4 text-white
        md:items-center md:justify-between"
       >
         <div className="flex flex-row items-center py-2 justify-center md:ml-8">
@@ -85,7 +85,10 @@ const Navbar = () => {
 
       <div className="sticky z-50 top-0 opacity-[95%] flex justify-between md:px-5 h-[80px] w-full items-center bg-white shadow-xl">
         <div className="flex items-center py-5 text-green-900">
-          <img className="md:h-20 md:w-26 h-12 w-12" src="/images/logoo.png" />
+          <img
+            className="md:h-20 md:w-20 h-12 w-12 cursor-pointer"
+            src="/images/logoo.png"
+          />
           <div className="text-l tracking-lighter ml-2">
             <NavLink
               to="/"
@@ -257,7 +260,7 @@ const Navbar = () => {
               )}
             </div>
             {servicesOpen && (
-              <div className="flex flex-col ">
+              <div className="flex flex-col duration-500">
                 <div className="h-[1px] bg-[#80ee2b] w-full"></div>
 
                 <NavLink

@@ -26,12 +26,12 @@ const images = [
 const ListOfClients = () => {
   const slideLeft = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 400;
+    slider.scrollLeft = slider.scrollLeft - 280;
   };
 
   const slideRight = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 400;
+    slider.scrollLeft = slider.scrollLeft + 280;
   };
 
   return (
@@ -46,7 +46,7 @@ const ListOfClients = () => {
       </div>
       <div className="relative flex items-center">
         <MdChevronLeft
-          className="opacity-50 cursor-pointer hover:opacity-100"
+          className="opacity-50 cursor-pointer hover:opacity-100 ml-2"
           size={80}
           onClick={slideLeft}
         />
@@ -59,12 +59,12 @@ const ListOfClients = () => {
               key={index}
               src={image.imageUrl}
               alt={image.title}
-              className="mx-2 md:mx-6 inline-block p-2 object-cover hover:scale-105 md:h-40 h-36 w-auto cursor-grab hover:opacity-80 transition-opacity duration-300"
+              className="mx-1 md:mx-6 inline-block p-2 object-cover hover:scale-105 md:h-40 h-24  cursor-grab hover:opacity-80 transition-opacity duration-300"
             />
           ))}
         </div>
         <MdChevronRight
-          className="opacity-50 cursor-pointer hover:opacity-100"
+          className="opacity-50 cursor-pointer hover:opacity-100 mr-2"
           size={80}
           onClick={slideRight}
         />

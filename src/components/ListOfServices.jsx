@@ -62,16 +62,16 @@ const ListOfServices = () => {
         <p className="text-center text-base md:text-2xl font-semibold from-neutral-100 text-slate-600">
           we offer
         </p>
-        <div className="m-6 flex flex-wrap justify-start">
+        <div className="md:my-6 my-3 mx-1 md:mx-auto flex flex-wrap justify-start">
           {data.map((service, index) => (
             <div key={index} className="m-4">
-              <div className="bg-[#EAECCC] rounded-xl pt-8 lg:h-[620px] lg:w-[400px] mx-auto flex flex-col">
+              <div className="bg-[#EAECCC] rounded-xl pt-8 lg:h-[620px] lg:w-[400px] lg:ml-4 flex flex-col">
                 <img
                   className="rounded-xl object-fill lg:h-50 px-5 lg:px-3 w-full"
                   src={service.imageUrl}
                   alt=""
                 />
-                <h2 className="p-4 text-center text-3xl font-semibold text-[#58a337]">
+                <h2 className="p-4 text-center text-2xl md:text-3xl font-semibold text-[#58a337]">
                   {service.title}
                 </h2>
                 <p className="text-center mx-1.5 font-medium text-green-900 p-2">

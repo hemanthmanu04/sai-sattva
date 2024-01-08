@@ -20,7 +20,7 @@ const AnnualMaintenence = () => {
 
       <div className="relative">
         <div className="h-[1px] bg-white"></div>
-        <div className="absolute shadow-lg top-1/2 md:w-2/5 w-full left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-slate-100 rounded-full p-2 text-center">
+        <div className="absolute shadow-lg top-1/2 md:w-2/5 w-[300px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-slate-100 rounded-full p-2 text-center">
           <span className="text-[#44832a] lg:tracking-wide font-medium">
             Home • Annual Maintenence & Contract
           </span>
