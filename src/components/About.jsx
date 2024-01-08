@@ -1,18 +1,15 @@
 const AboutUs = () => {
   return (
     <>
-      <div className="lg:flex lg:px-20 px-10">
+      <div className="lg:flex lg:px-20 px-4">
         <div className="lg:w-[50%] bg-white py-16 lg:mt-28 lg:py-0">
-          <p className="text-gray-700 text-l font-semibold mb-2 tracking-wide">
-            Welcome To
+          <p className="text-gray-700 text-l font-semibold  tracking-wide">
+            Welcome to
           </p>
-          <h1 className="text-[#58a337] font-semibold text-5xl tracking-wide">
-            Sai Sattva Engineering
+          <h1 className="text-[#58a337] font-semibold text-4xl md:text-5xl ">
+            Sai Sattva Engineering and Consultants
           </h1>
-          <h1 className="text-[#58a337] font-semibold text-5xl tracking-wide">
-            and Consultants
-          </h1>
-          <div className="text-gray-700 text-l font-medium mt-5 ">
+          <div className="text-gray-700 text-l font-medium mt-2 md:mt-5 ">
             <p className="lg:mr-2">
               Founded in 2023, our company has been on a mission to integrate
               the latest technologies, aiming to offer top-notch services to our
@@ -25,7 +22,7 @@ const AboutUs = () => {
               cornerstone of our values, reflecting our unwavering commitment to
               delivering the best in technology and service
             </p>
-            <button className="mt-10 hover:bg-green-900 h-14 w-36 lg:mt-10 bg-[#58a337] text-white rounded-lg">
+            <button className="mt-4 hover:bg-green-900 h-14 w-36 lg:mt-10 bg-[#58a337] text-white rounded-lg">
               Read More
             </button>
           </div>
@@ -37,7 +34,7 @@ const AboutUs = () => {
 
             <img
               src="images/plant.jpg"
-              className="w-[550px] mb-12 lg:mb-0 lg:h-[380px] h-[300px] lg:relative lg:rounded-2xl lg:shadow-2xl rounded-2xl lg:object-cover lg:top-[-70px] lg:right-[-70px]"
+              className="w-[550px] mb-12 lg:mb-0 lg:h-[380px] h-[250px] lg:relative lg:rounded-2xl lg:shadow-2xl rounded-2xl lg:object-cover lg:top-[-70px] lg:right-[-70px]"
             />
           </div>
         </div>

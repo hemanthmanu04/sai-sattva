@@ -56,10 +56,10 @@ const ListOfServices = () => {
   return (
     <>
       <div className="bg-slate-100 ">
-        <h1 className="text-center lg:mb-0 font-semibold pt-3 text-[#58a337] text-6xl">
+        <h1 className="text-center lg:mb-0 font-semibold pt-3 text-[#58a337] text-4xl md:text-6xl">
           Services
         </h1>
-        <p className="text-center text-2xl font-semibold from-neutral-100 text-slate-600">
+        <p className="text-center text-base md:text-2xl font-semibold from-neutral-100 text-slate-600">
           we offer
         </p>
         <div className="m-6 flex flex-wrap justify-start">

@@ -55,7 +55,7 @@ const Section = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative h-screen flex items-center justify-center group duration-500">
+    <div className="relative lg:h-screen h-[400px] flex items-center justify-center group duration-500">
       <div className="cursor-pointer hidden group-hover:block ">
         <div className="absolute left-5 z-30 top-[50%] -translate-x-0 -translate-y-[-50%] rounded-full bg-black/20">
           <BsChevronCompactLeft onClick={prevSlide} size={35} fill="white" />
@@ -76,10 +76,10 @@ const Section = () => {
         ></div>
       ))}
       <div className="relative z-20 text-white text-center ">
-        <h1 className="md:text-[70px] text-[40px] font-bold">
+        <h1 className="md:text-[70px] text-[30px] font-bold">
           {data[currentIndex].title}
         </h1>
-        <p className="mt-2 font-bold text-white ">
+        <p className="mt-2 font-bold text-white md:text-[20px] text-[12px]">
           {data[currentIndex].description}
         </p>
       </div>

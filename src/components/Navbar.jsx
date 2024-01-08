@@ -24,17 +24,17 @@ const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="white"
               viewBox="0 0 256 256"
-              className="md:h-6 md:w-6 h-4 w-4"
+              className="md:h-6 md:w-6 h-4 w-4 "
             >
               <path d="M231.88,175.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.26,56.26,0,0,1,80.92,24.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Z"></path>
             </svg>
-            <span className="md:ml-2 ml-1 text-white md:text-base text-sm ">
+            <span className="md:ml-2 ml-1 text-white md:text-base text-[13px] tracking-wide">
               +91 8197696766
             </span>
           </a>
 
           <a
-            className="ml-6 flex "
+            className="ml-4 flex "
             href="mailto:saisattvaconsultants@gmail.com"
           >
             <svg
@@ -86,7 +86,7 @@ const Navbar = () => {
       <div className="sticky z-50 top-0 opacity-[95%] flex justify-between md:px-5 h-[80px] w-full items-center bg-white shadow-xl">
         <div className="flex items-center py-5 text-green-900">
           <img className="md:h-20 md:w-26 h-12 w-12" src="/images/logoo.png" />
-          <div className="text-l tracking-lighter ml-5">
+          <div className="text-l tracking-lighter ml-2">
             <NavLink
               to="/"
               exact
