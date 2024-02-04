@@ -37,13 +37,13 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="lg:relative lg:mt-0 lg:mb-4 mb-12">
+        <div className="lg:relative lg:mt-10 mb-12 lg:mr-14 ">
           <div className="relative">
             <div className="hidden lg:block bg-slate-300 rounded-2xl absolute top-0 left-0 w-[550px] h-[380px]"></div>
 
             <img
               src="images/plant.jpg"
-              className="w-[550px] h-[300px] lg:relative lg:rounded-2xl lg:shadow-2xl rounded-2xl lg:object-cover lg:top-[-70px] lg:right-[-70px]"
+              className=" h-[275px] mx-auto md:w-[550px] md:h-[360px] lg:relative lg:rounded-2xl lg:shadow-2xl rounded-2xl lg:object-cover lg:top-[-60px] lg:right-[-70px]"
             />
           </div>
         </div>

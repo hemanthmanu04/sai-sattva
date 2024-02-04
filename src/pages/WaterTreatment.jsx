@@ -14,7 +14,7 @@ const WaterTreatment = () => {
           className="h-[300px] bg-cover bg-center object-cover duration-500"
           style={{ backgroundImage: `url("images/bg.jpg")` }}
         ></div>
-        <h1 className="absolute text-[#44832a] top-[40%] left-[13%] lg:top-[40%] lg:left-[30%] font-semibold text-3xl lg:text-6xl text-center">
+        <h1 className="absolute text-[#44832a] top-[40%] left-[7%] lg:top-[40%] lg:left-[30%] font-semibold text-3xl lg:text-6xl text-center">
           Water Treatment Plant
         </h1>
       </div>

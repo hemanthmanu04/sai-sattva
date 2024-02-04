@@ -30,7 +30,7 @@ const AnnualMaintenence = () => {
         <div>
           <div className="lg:flex lg:my-24">
             <div>
-              <h1 className=" py-5 mb-10 mt-12 text-[#44832a] font-semibold text-3xl md:text-4xl text-center">
+              <h1 className=" py-5 mb-10 mt-12 text-[#44832a] underline font-semibold text-3xl md:text-4xl text-center">
                 Annual Maintenence & Contract{" "}
               </h1>
               <p className="md:mx-12 mx-4 text-md lg:text-lg text-slate-700 font-medium tracking-wide">

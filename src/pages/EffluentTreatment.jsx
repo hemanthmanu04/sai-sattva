@@ -14,7 +14,7 @@ const EffluentTreatment = () => {
           className="h-[300px] bg-cover bg-center object-cover duration-500"
           style={{ backgroundImage: `url("images/bg.jpg")` }}
         ></div>
-        <h1 className="absolute text-[#44832a] top-[42%] left-[10%] lg:top-[40%] lg:left-[25%] font-semibold text-3xl lg:text-6xl text-center">
+        <h1 className="absolute text-[#44832a] top-[42%] left-[4%] lg:top-[40%] lg:left-[25%] font-semibold text-3xl lg:text-6xl text-center">
           Effluent Treatment Plant
         </h1>
       </div>

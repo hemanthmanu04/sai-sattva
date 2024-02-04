@@ -49,10 +49,10 @@ const EnvironmentLegal = () => {
                 This encompasses:
               </p>
               <p className="lg:mx-12 mx-4 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
-                • Environmental Impact Assessment Notification, 2006
+                • Environmental Impact Assessment , 2006
               </p>
               <p className="lg:mx-12 mx-4 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
-                • Coastal Regulation Zone (CRZ) Notification, 2011
+                • Coastal Regulation Zone (CRZ) , 2011
               </p>
               <p className="lg:mx-12 mx-4 text-md lg:text-lg text-slate-700 font-medium tracking-wide">
                 Additionally, we offer services such as environmental management

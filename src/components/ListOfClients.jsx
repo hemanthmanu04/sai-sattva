@@ -52,7 +52,7 @@ const ListOfClients = () => {
         />
         <div
           id="slider"
-          className="mx-10 my-10 flex items-center overflow-x-scroll scroll-smooth scrollbar-hide cursor-grab"
+          className=" my-10 flex items-center overflow-x-scroll scroll-smooth scrollbar-hide cursor-grab"
         >
           {images.map((image, index) => (
             <img
